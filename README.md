@@ -20,7 +20,7 @@ Fitering method : raw: /radar/radar_data -> /radar/filtered_data -> /radar/targe
 Important Featrue : range [], radial speed[] , azimuth angle[] , evelvation angle[], reflectivity [] <br/> 
 <br/> 
 Important Spec : <br/> 
- 1.almost unaffedcted by weather, temperature and lighting codintion[2]
+ 1.almost unaffedcted by weather, temperature and lighting codintion [2]
  
  2.ultra-high definition resolution  
   i) A different radial speed value <br/> 
@@ -32,7 +32,7 @@ Important Spec : <br/>
   ii) *Radial Velocity* using doppler freqeucny change <br/> 
   iii) *Angle measurement* using *TODO* <br/> 
                  
-# Data pipeline [1]
+# Data pipeline
 1. Just delete far points
 2. z value less than 2m, delete
 3. using speed radial, seperate Dynamic and Static
@@ -44,5 +44,5 @@ Important Spec : <br/>
 2. Find good paper about Radar SLAM, Radar Localizatoin
                  
 # Reference <br/>                 
-RADAR/INS INTEGRATION FOR POSE ESTIMATION IN GNSS-DENIED ENVIRONMENTS[1] <br/> 
-smartmicro sensor UMRR-11 type 132 data spec[2] <br/> 
+*RADAR/INS INTEGRATION FOR POSE ESTIMATION IN GNSS-DENIED ENVIRONMENTS[1] <br/> 
+*smartmicro sensor UMRR-11 type 132 data spec[2] <br/> 
