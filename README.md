@@ -23,12 +23,22 @@ Important Spec : 1.almost unaffedcted by weather, temperature and lighting codin
                       i) A different radial speed value
                       ii) A different range value
                       iii) A different azimuth angular position
-                 3. modulation FMCW[1] 
+                 3. modulation FMCW [1]
+                      i) *Range measurement* using TOF(time of flight) "phase shift"
+                      ii) *Radial Velocity* using doppler freqeucny change
+                      iii) *Angle measurement* using *TODO*
                  
-# Data pipeline
+# Data pipeline [1]
+1. Just delete far points
+2. z value less than 2m, delete
+3. using speed radial, seperate Dynamic and Static
+4. using intensity less than a threshold                 
 
-                 
-                 
+
+# TODO
+1. How radar(FMCW) calculate point angle ?
+2. Is feature name POWER is Reflectivity ?
+3. READ Paper "Are We Ready for Radar to Replace Lidar in All-Weather Mapping and Localizaiont?
                  
 # Reference                 
 RADAR/INS INTEGRATION FOR POSE ESTIMATION IN GNSS-DENIED ENVIRONMENTS[1] 
