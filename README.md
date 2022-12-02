@@ -20,9 +20,9 @@ Fitering method : raw: /radar/radar_data -> /radar/filtered_data -> /radar/targe
 Important Featrue : range [], radial speed[] , azimuth angle[] , evelvation angle[], reflectivity []
 Important Spec : 1.almost unaffedcted by weather, temperature and lighting codintion[2]
                  2.ultra-high definition resolution, 
-                      i) A different radial speed value
-                      ii) A different range value
-                      iii) A different azimuth angular position
+                      i) A different radial speed value 
+                      ii) A different range value 
+                      iii) A different azimuth angular position 
                  3. modulation FMCW [1]
                       i) *Range measurement* using TOF(time of flight) "phase shift"
                       ii) *Radial Velocity* using doppler freqeucny change
