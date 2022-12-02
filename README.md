@@ -7,11 +7,7 @@
 *rviz configuration* : frame_id "radar", topic add pointcloud1 , set DecayTime long.
 
 # UMRR - type 132
-
-![CE9B7207-B312-4791-AC30-D8B5DDF6133C](https://user-images.githubusercontent.com/100289642/205299648-458f948c-2f83-42f4-90cb-0f69df4163f5.jpeg)
-![CE9B7207-B312-4791-AC30-D8B5DDF6133C(1)](https://user-images.githubusercontent.com/100289642/205299656-824966b2-fd76-45f6-ad98-968e1f01488a.jpeg)
 ![5F00F7D6-34E6-4EE0-8AF6-1D6228B0463F](https://user-images.githubusercontent.com/100289642/205299661-cc4d443d-4c2e-4f5a-ba80-ca9f14364b18.jpeg)
-
 UMRR ROS provide 3 topic : <br/> 1. /radar/radar_data
                            <br/> 2. /radar/filtered_data
                            <br/> 3. /radar/target_list_cartesian
