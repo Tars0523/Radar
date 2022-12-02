@@ -19,7 +19,7 @@ Fitering method : raw: /radar/radar_data -> /radar/filtered_data -> /radar/targe
 
 Important Featrue : range [], radial speed[] , azimuth angle[] , evelvation angle[], reflectivity [] <br/> 
 Important Spec : <br/> 
-                 1.almost unaffedcted by weather, temperature and lighting codintion[2] <br/> 
+                 1.almost unaffedcted by weather, temperature and lighting codintion[2] <br/> 
                  2.ultra-high definition resolution <br/>  
                       i) A different radial speed value <br/> 
                       ii) A different range value <br/> 
