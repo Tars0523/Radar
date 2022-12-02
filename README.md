@@ -41,7 +41,7 @@ Important Spec : <br/>
 
 # TODO
 1. How radar(FMCW) calculate point angle ?
-2. Find good paper about Radar SLAM, Radar Localizatoin
+2. Find good paper about Radar SLAM, Radar Localization
                  
 # Reference <br/>                 
 *RADAR/INS INTEGRATION FOR POSE ESTIMATION IN GNSS-DENIED ENVIRONMENTS[1] <br/> 
