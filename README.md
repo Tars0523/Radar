@@ -13,9 +13,9 @@ UMRR ROS provide 3 topic : <br/>1. /radar/radar_data
                            <br/>3. /radar/target_list_cartesian
 
 Fitering method : raw: /radar/radar_data -> /radar/filtered_data -> /radar/target_list_cartesian <br/> 
- 1. RAW data from sensor <br/> 
- 2. Filtering config , custom in rviz or configuration file <br/> 
- 3. Filtered data , msg using pointcloud2 <br/> 
+  1. RAW data from sensor <br/> 
+  2. Filtering config , custom in rviz or configuration file <br/> 
+  3. Filtered data , msg using pointcloud2 <br/> 
 
 Important Featrue : range [], radial speed[] , azimuth angle[] , evelvation angle[], reflectivity [] <br/> 
 <br/> 
