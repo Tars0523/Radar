@@ -22,10 +22,10 @@ Important Featrue : range [], radial speed[] , azimuth angle[] , evelvation angl
 Important Spec : <br/> 
  1.almost unaffedcted by weather, temperature and lighting codintion [2]
  
- 2.ultra-high definition resolution
-  i) A different radial speed value <br/>
-  ii) A different range value <br/> 
-  iii) A different azimuth angular position
+ 2.ultra-high definition resolution <br/>
+  i) A different radial speed value <br/>
+  ii) A different range value <br/> 
+  iii) A different azimuth angular position
    
  3. modulation FMCW [1] <br/> 
   i) *Range measurement* using TOF(time of flight) "phase shift" <br/> 
