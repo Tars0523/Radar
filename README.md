@@ -42,6 +42,7 @@ Important Spec : <br/>
 # TODO
 1. How radar(FMCW) calculate point angle ?
 2. Find good paper about Radar SLAM, Radar Localization
+3. Use MATLAB make environment for Analyis Data(Bagfile from Robot)
                  
 # Reference <br/>                 
 *RADAR/INS INTEGRATION FOR POSE ESTIMATION IN GNSS-DENIED ENVIRONMENTS[1] <br/> 
