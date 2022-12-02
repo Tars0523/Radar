@@ -38,8 +38,7 @@ Important Spec : <br/>
 
 # TODO
 1. How radar(FMCW) calculate point angle ?
-2. Is feature name POWER is Reflectivity ?
-3. READ Paper "Are We Ready for Radar to Replace Lidar in All-Weather Mapping and Localizaiont?
+2. Find good paper about Radar SLAM, Radar Localizatoin
                  
 # Reference <br/>                 
 RADAR/INS INTEGRATION FOR POSE ESTIMATION IN GNSS-DENIED ENVIRONMENTS[1] <br/> 
