@@ -8,7 +8,7 @@
 
 # UMRR - type 132
 ![5F00F7D6-34E6-4EE0-8AF6-1D6228B0463F](https://user-images.githubusercontent.com/100289642/205299661-cc4d443d-4c2e-4f5a-ba80-ca9f14364b18.jpeg)
-UMRR ROS provide 3 topic : <br/> 1. /radar/radar_data
+UMRR Radar for ROS provide 3 topic : <br/> 1. /radar/radar_data
                            <br/> 2. /radar/filtered_data
                            <br/> 3. /radar/target_list_cartesian
 
