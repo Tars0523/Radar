@@ -28,9 +28,9 @@ Important Spec : <br/>
   iii) A different azimuth angular position
    
  3. modulation FMCW [1] <br/> 
-  i) *Range measurement* using TOF(time of flight) "phase shift" <br/> 
+  i) *Range measurement* using frequecny difference and phase shift <br/> 
   ii) *Radial Velocity* using doppler freqeucny change <br/> 
-  iii) *Angle measurement* using *TODO* <br/> 
+  iii) *Angle measurement* using phase shift difference bettween two or more reciver(antena) <br/> 
                  
 # Data pipeline
 1. Just delete far points
@@ -40,11 +40,10 @@ Important Spec : <br/>
 
 
 # TODO
-1. How radar(FMCW) calculate point angle ?
-2. Find good paper about Radar SLAM, Radar Localization
-3. Use MATLAB make environment for Analyis Data(Bagfile from Robot)
-4. Why radar point cloud canoot detect Ground ?
-5. Unit of features ? 
+1. Find good paper about Radar SLAM, Radar Localization
+2. Use MATLAB make environment for Analyis Data(Bagfile from Robot)
+3. Why radar point cloud canoot detect Ground ?
+4. Unit of features ? 
                  
 # Reference <br/>                 
 *RADAR/INS INTEGRATION FOR POSE ESTIMATION IN GNSS-DENIED ENVIRONMENTS[1] <br/> 
