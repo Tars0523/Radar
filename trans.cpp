@@ -9,21 +9,27 @@
 #include <iostream>
 #include <pcl/conversions.h>
 #include "nav_msgs/Odometry.h"
+#include "nav_msgs/Path.h"
 #include "pcl_ros/point_cloud.h"
 #include <sensor_msgs/point_cloud_conversion.h>
 #include <tf/tf.h>
 #include <math.h>
+#include "geometry_msgs/PoseStamped.h"
 
 sensor_msgs::PointCloud2 cloud_msg;
 sensor_msgs::PointCloud out_cloud;
-nav_msgs::Odometry odom_ekf;
 
+nav_msgs::Odometry odom_ekf;
+nav_msgs::Path path_odom;
+
+geometry_msgs::PoseStamped pos_stamp;
 
 class PubAndSub
 {
 private:
     ros::NodeHandle n_;
-    ros::Publisher pub_;
+    ros::Publisher pub_1;
+    ros::Publisher pub_2;
     ros::Subscriber sub_1;
     ros::Subscriber sub_2;
 
@@ -31,7 +37,8 @@ public:
 
     PubAndSub()
     {
-        pub_ = n_.advertise<sensor_msgs::PointCloud>("out_cloud", 10);
+        pub_1 = n_.advertise<sensor_msgs::PointCloud>("out_cloud", 10);
+        pub_2 = n_.advertise<nav_msgs::Path>("path_odom", 10);
         sub_1 = n_.subscribe<sensor_msgs::PointCloud2> ("radar/target_list_cartesian",10,&PubAndSub::cloud_callback,this);
         sub_2 = n_.subscribe<nav_msgs::Odometry>("/odom",10,&PubAndSub::odom_callback,this);
         callback();
@@ -77,8 +84,17 @@ public:
 	out_cloud.points[i].y = Y_i + odom_ekf.pose.pose.position.y*1;
 	out_cloud.points[i].z = Z_i + odom_ekf.pose.pose.position.z*1;
 	}
+
+
+    pos_stamp.header = odom_ekf.header;
+    pos_stamp.pose = odom_ekf.pose.pose;
+    
+    path_odom.header = odom_ekf.header;
+    path_odom.poses.push_back(pos_stamp);
+    path_odom.header.frame_id = "/radar";
 	
-	pub_.publish(out_cloud);
+	pub_1.publish(out_cloud);
+    pub_2.publish(path_odom);
 	}
 	
     void odom_callback(const nav_msgs::Odometry::ConstPtr& msg_o){
