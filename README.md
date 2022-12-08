@@ -2,11 +2,15 @@
 # Radar Mapping 
 
 ```c
-//```뒤에 자신이 원하는 언어 (생략 가능)
-#include <stdio.h>
-int main(void) {
-  printf("Hello World!");
-}
+>> mkdir radar
+>> cd radar
+>> mkdir src
+>> cd src
+>> git clone ~
+>> cd ..
+>> catkin_make
+>> rosrun beginner_tutorias trans.cpp
+>> rviz (open config, configure /radar/src/beginner_tutorialas/rviz_config.rviz)
 ```
 
 
