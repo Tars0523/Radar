@@ -11,6 +11,7 @@
 >> catkin_make
 >> rosrun beginner_tutorias trans.cpp
 >> rviz (open config, configure /radar/src/beginner_tutorialas/rviz_config.rviz)
+>> rosbag play ~/*data*
 ```
 
 
