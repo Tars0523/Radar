@@ -2,15 +2,9 @@
 # Radar Mapping 
 
 ```c
->> mkdir radar
->> cd radar
->> mkdir src
->> cd src
->> git clone ~
->> cd ..
 >> catkin_make
 >> rosrun beginner_tutorias trans.cpp
->> rviz (open config, configure /radar/src/beginner_tutorialas/rviz_config.rviz)
+>> rviz
 >> rosbag play ~/*data*
 ```
 
